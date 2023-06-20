@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.6.20)  20 JUN 2023 09:37
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.6.20)  20 JUN 2023 09:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -927,121 +927,126 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 51.
 
+Underfull \hbox (badness 3612) in paragraph at lines 73--74
+[]\TU/EBGaramond(0)/m/n/10 Part-time rotation focused on proactively identifyin
+g potential
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
 
-Underfull \hbox (badness 1776) in paragraph at lines 89--90
-[]\TU/EBGaramond(0)/m/n/10 Partnered with consulting teams and product to build
- a
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 108.
+(Font)              <8> on input line 112.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 108.
+(Font)              <6> on input line 112.
 LaTeX Font Info:    Font shape `TU/LinLibertine(4)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 108.
+(Font)              scaled to size 8.0pt on input line 112.
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--108
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 [][][][][]$[][][][][] [] [] [] [][][][][][][] [] [][][][][][] [] [][][] [] [][]
 [][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--111
+Underfull \hbox (badness 10000) in paragraph at lines 111--115
 
  []
 
 
-Overfull \hbox (7.82222pt too wide) in paragraph at lines 128--129
+Overfull \hbox (7.82222pt too wide) in paragraph at lines 132--133
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--162
+Underfull \hbox (badness 10000) in paragraph at lines 147--166
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--174
+Underfull \hbox (badness 10000) in paragraph at lines 178--178
 []\TU/EBGaramond(0)/m/n/10 FedNow Advanced
  []
 
 
-Underfull \hbox (badness 1226) in paragraph at lines 174--174
+Underfull \hbox (badness 1226) in paragraph at lines 178--178
 \TU/EBGaramond(0)/m/n/10 from the very small to very
  []
 
 
-Underfull \hbox (badness 3954) in paragraph at lines 175--175
+Underfull \hbox (badness 3954) in paragraph at lines 179--179
 []\TU/EBGaramond(0)/m/n/10 TSYS Data Science
  []
 
 
-Underfull \hbox (badness 6284) in paragraph at lines 175--175
+Underfull \hbox (badness 6284) in paragraph at lines 179--179
 []\TU/EBGaramond(0)/m/n/10 Designed and implemented
  []
 
 
-Underfull \hbox (badness 6063) in paragraph at lines 175--175
+Underfull \hbox (badness 6063) in paragraph at lines 179--179
 \TU/EBGaramond(0)/m/n/10 product testing and refine-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--180
+Underfull \hbox (badness 10000) in paragraph at lines 177--184
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--185
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
 []\TU/EBGaramond(0)/m/n/10 Machine learning, Deep
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--185
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
 \TU/EBGaramond(0)/m/n/10 Reinforcment Learning,
  []
 
 
-Underfull \hbox (badness 6808) in paragraph at lines 185--185
+Underfull \hbox (badness 6808) in paragraph at lines 189--189
 \TU/EBGaramond(0)/m/n/10 learning, data visualization,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--185
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
 \TU/EBGaramond(0)/m/n/10 data wrangling , anomaly
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--185
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
 \TU/EBGaramond(0)/m/n/10 streaming, risk estimation
  []
 
 
-Underfull \hbox (badness 1852) in paragraph at lines 188--188
+Underfull \hbox (badness 1852) in paragraph at lines 192--192
 []\TU/EBGaramond(0)/m/n/10 SQL, \TU/EBGaramond(0)/m/sc/10 python\TU/EBGaramond(
 0)/m/n/10 , R, Tableau,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
+Underfull \hbox (badness 10000) in paragraph at lines 192--192
 \TU/EBGaramond(0)/m/n/10 Hadoop, Spark, big data,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
+Underfull \hbox (badness 10000) in paragraph at lines 192--192
 \TU/EBGaramond(0)/m/n/10 mainframes, non-stop
  []
 
@@ -1062,6 +1067,6 @@ Here is how much of TeX's memory you used:
  44193 multiletter control sequences out of 15000+600000
  516245 words of font info for 104 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 84i,18n,115p,472b,547s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,18n,115p,472b,549s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on Resume.pdf (1 page).
