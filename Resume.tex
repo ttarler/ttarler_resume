@@ -24,7 +24,7 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[10pt]{article} % Font size, can be: 10pt, 11pt or 12pt
+\documentclass[9pt]{article} % Font size, can be: 10pt, 11pt or 12pt
 
 \input{structure.tex} % Include the file that specifies the document structure
 
@@ -53,7 +53,7 @@
 	
 %----------------------------------------------------------------------------------------
 
-\begin{minipage}[t]{0.5\textwidth} % Start the left-hand side of the page
+\begin{minipage}[t]{0.55\textwidth} % Start the left-hand side of the page
 \vspace{0pt} % Trick for alignment
 	
 %----------------------------------------------------------------------------------------
@@ -68,56 +68,59 @@
 {\raggedleft\textsc{January 2022 - Present}\par}
 
 {\raggedright\large Sr. Data Scientist,  DCCA\\ 
-\textit{Board of Governors of the Federal Reserve}\\[5pt]}
+\textit{Board of Governors of the Federal Reserve}\\[1pt]}
 
-\normalsize{Part-time rotation focused on proactively identifying potential risks to consumer financial health.   \\
+\normalsize{
 \begin{itemize}
-\item Developed early warning metrics on the automotive and credit card market to proactively identify recessions; presented work to committee comprised of the governors
-\item Reconciled data source from various vendors and regulatory reporting to calibrate an accurate picture of the economy 
-\item Collaborated across different groups (CCA, Supervisory, Payment Systems) on various AI topics and their potential harms to the consumer
+\item Developed early warning indicators for automotive and credit card markets to detect recession signals; presented findings directly to the Board of Governors
+\item Integrated heterogeneous data from vendors and regulatory reporting to build a unified economic health assessment
+\item Advised cross-divisional teams (CCA, Supervisory, Payment Systems) on AI risk, fairness, and consumer protection strategy
 \end{itemize}}
 
 {\raggedright\large Sr. Data Scientist,  FedNow\\ 
-\textit{Federal Reserve Bank of Boston}\\[5pt]}
+\textit{Federal Reserve Bank of Boston}\\[1pt]}
 
-\normalsize{Designer and architect behind the first AI systems for fraud detection on the FedNow Service     \\
-
+\normalsize{
 \begin{itemize}
-\item Developed FedNow AAT and Network Intelligence service in collaboration with vendor partners, technology, audit and program management. 
-\item Lead a team of 20 in a hackthon to produce first ever cross-rail payments fraud model 
-\item Lead a cross-functional team to develop model validation, data privacy, and other data governance output for the Federal Reserve Financial Services
+\item Designed and delivered FedNow's first AI-powered fraud detection services (AAT, Network Intelligence) in partnership with vendor, technology, audit, and program leadership
+\item Led a 20-person cross-functional team in a hackathon that produced the Federal Reserve's first cross-rail payments fraud model
+\item Established model validation, data privacy, and AI governance frameworks adopted across Federal Reserve Financial Services
 \end{itemize}}
 
-{\raggedleft\textsc{August- 2018 - December 2021}\par}
+{\raggedleft\textsc{August 2018 - December 2021}\par}
 
 {\raggedright\large Chief Data Scientist, Atlanta\\ 
-\textit{TSYS, a Global Payments Company}\\[5pt]}
+\textit{TSYS, a Global Payments Company}\\[1pt]}
 
-\normalsize{Created first Data Science team and overall Research and Development program within TSYS. Primary focus is in Fraud \& Risk with mandate to develop into other portfolio areas. \\
+\normalsize{
 \begin{itemize}
-\item Established program, team, and platform for rapid data science innovation Retooled for a consulting service with  \$2M annual run rate.  
-\item Developed industry leading model, TSYS Foresight Score as the primary data scientist and moved into production for 30+ different financial institutions and over \$10M in revenue
-\item Designed and constructed the TSYS R\&D Data Lake at a total cost of \$300K - by far the single most efficient asset in TSYS history with \$2.5M USD in realized income
+\item Built team and platform from zero; scaled into a consulting service generating \$2M annual revenue
+\item Served as primary architect of TSYS Foresight Score, an industry-leading fraud model deployed to 30+ financial institutions driving \$10M+ in revenue
+\item Designed the R\&D Data Lake at \$300K total cost, generating \$2.5M in realized income---the highest-ROI infrastructure asset in company history
 \end{itemize}}
 
+\section{Independent Projects}
 
+{\raggedright\large Automated Trading System\\[1pt]}
 
+\normalsize{
+\begin{itemize}
+\item Architected multi-algorithm RL ensemble (PPO, SAC, TD3 via TorchRL) with 6-signal conviction scoring and regime-adaptive thresholds
+\item Built full AWS infrastructure: SageMaker ML training/HPO, ECS/Fargate, Aurora PostgreSQL, EventBridge orchestration
+\item Engineered real-time execution across 8,500+ equity symbols with FastAPI backend, Next.js dashboard, and automated risk controls
+\item Implemented MLOps pipeline with monthly automated retraining, blue-green deployment, and circuit breaker safeguards
+\end{itemize}}
 
+{\raggedright\large \texttt{tidydp} --- Differential Privacy R Package\\[1pt]}
 
+\normalsize{Open-source R package providing a tidy-style API for differential privacy (Laplace/Gaussian mechanisms) with privacy budget tracking. CRAN-ready with 77 tests.\footnote{\url{https://github.com/ttarler/tidydp}}}\\[6pt]
 
-%------------------------------------------------
-% WORK EXPERIENCE 2
-%------------------------------------------------
+\section{Publications}
 
-\section{Publications} 
-
-\begin{tabular}{rl}
-2019 & \parbox{0.75\textwidth}{\textbf{“Methods, Systems, and Apparatuses for improved fraud detection and reduction” U.S. Pat. US 2021/0042824A1}\footnote{\url{https://patents.google.com/patent/US20210042824A1}}}\\
-& \textit{USPTO} \\
-\end{tabular}\\[10pt]
+\textbf{U.S. Pat. US 2021/0042824A1} --- Methods, Systems, and Apparatuses for Improved Fraud Detection and Reduction (2019)\footnote{\url{https://patents.google.com/patent/US20210042824A1}}\\[6pt]
 \end{minipage} % End the left-hand side of the page
 \hfill
-\begin{minipage}[t]{0.44\textwidth} % Start the right-hand side of the page
+\begin{minipage}[t]{0.40\textwidth} % Start the right-hand side of the page
 \vspace{0pt} % Trick for alignment
 
 %----------------------------------------------------------------------------------------
@@ -125,7 +128,7 @@
 %----------------------------------------------------------------------------------------
 
 \colorbox{shade}{\textcolor{text}{
-\begin{tabular}{c|p{7cm}}
+\begin{tabular}{c|p{5.5cm}}
 \raisebox{-4pt}{} & Thomas Tarler \\ % Address
 \raisebox{-4pt}{} & Falmouth, ME\\ % Address
 \raisebox{-3pt}{} & +1 (720)496-9222 \\ % Phone number
@@ -133,7 +136,7 @@
  % Website
 \end{tabular}
 }
-}\\[10pt]
+}\\[6pt]
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
@@ -141,7 +144,7 @@
 
 \section{Summary} 
 
-A top data scientist in banking and payments with experience in acquiring and issuing and an expert in fraud and real time authorizations,  FedNow, and other government payment systems as well as as BSA/AML. I regularly transform limited budgets and informal influence into tightly focused projects with very large ROI. Skilled communicator, seller,  leader, and visionary - I build teams, platforms, and processes for success in Artificial Intelligence. 
+Senior AI and data science leader with 8+ years building and scaling enterprise AI programs from inception to production. Proven track record architecting intelligent systems---from real-time fraud detection serving 30+ financial institutions to autonomous trading platforms---and translating them into measurable business outcomes exceeding \$15M in cumulative value. Builds high-performing teams, research platforms, and governance frameworks. Published researcher in differential privacy. Holds FOMC-level government clearances and bridges technical depth with executive communication.
 
 %----------------------------------------------------------------------------------------
 	
@@ -156,50 +159,35 @@ A top data scientist in banking and payments with experience in acquiring and is
 
 2011 -- 2015  & \textbf{Bachelor of Arts} \\ 
 & \small{With Distinction and Cum Laude}\\
-& \textsc{Mathmematics and Economics} \\ 
-& \textit{University of Denver}\\
-&\\
-2017 -- 2020  & \textbf{Master of Science} \\ 
-& \textsc{Data Science, with Honors} \\ 
+& \textsc{Mathematics and Economics} \\ 
+& \textit{University of Denver}\\[4pt]
+2017 -- 2020  & \textbf{Master of Science} \\
+& \textsc{Data Science, with Honors} \\
 & \textit{Regis University}\\
-&\\	 
 
 %----------------------------------------------------------------------------------------
 
-\end{tabular}\\[10pt]
+\end{tabular}\\[6pt]
 
-%----------------------------------------------------------------------------------------
-%	AWARDS
-%----------------------------------------------------------------------------------------
-
-
-
-%------------------------------------------------
-
-
-%----------------------------------------------------------------------------------------
-%	COMPUTER SKILLS
-%----------------------------------------------------------------------------------------
-
-\section{Technical Skills} 
+\section{Certifications}
 
 \begin{tabular}{rl}
-\parbox{0.3\textwidth}{Techniques}
-& \parbox{0.5\textwidth}{Machine learning, Deep Reinforcment Learning,  DevOps, Agile, financial forecasting,  reinforcement/policy learning, data visualization,  data wrangling , anomaly detection, data mining, event streaming, risk estimation and optimization}\\ 
-& \\
-\parbox{0.3\textwidth}{Technology}
-& \parbox{0.5\textwidth}{SQL, \textsc{python}, R, Tableau, Hadoop, Spark, big data, mainframes, non-stop systems,  ERP  }\\
+2026 & \textbf{AWS Certified Cloud Practitioner}\\
+     & \textit{Amazon Web Services}\\
+\end{tabular}\\[6pt]
+
+\section{Technical Skills}
+
+\begin{tabular}{rl}
+\parbox{0.3\textwidth}{AI \& ML}
+& \parbox{0.5\textwidth}{\raggedright Deep learning, reinforcement learning, NLP/LLMs, time series forecasting, anomaly detection, model validation, MLOps, differential privacy}\\[3pt]
+\parbox{0.3\textwidth}{Cloud \& Data}
+& \parbox{0.5\textwidth}{\raggedright AWS (SageMaker, ECS, Lambda, S3, Aurora), SQL, \textsc{Python}, R, Spark, Kafka, Docker, Terraform}\\[3pt]
+\parbox{0.3\textwidth}{Leadership}
+& \parbox{0.5\textwidth}{\raggedright Program creation, Agile, vendor management, data governance, executive communication, cross-functional team leadership}\\[3pt]
 \parbox{0.3\textwidth}{Clearances}
-& \parbox{0.5\textwidth}{CSI/FOMC Level 3 (SF85-P), FedNow Moderate (SF-84)  }\\
+& \parbox{0.5\textwidth}{\raggedright CSI/FOMC Level 3 (SF85-P), FedNow Moderate (SF-84)}\\
 \end{tabular}
-
-
-
-
-%----------------------------------------------------------------------------------------
-%	COMMUNICATION SKILLS
-%----------------------------------------------------------------------------------------
-
 
 \end{minipage} % End right-hand side of the page
 
