@@ -20,8 +20,10 @@
 %----------------------------------------------------------------------------------------
 
 \usepackage{etoolbox} % Required for conditional statements
+\usepackage{enumitem} % Compact lists
 
 \setlength\parindent{0pt} % Stop paragraph indentation
+\setlist[itemize]{nosep,left=0pt,topsep=2pt} % Tighten itemize spacing
 
 \usepackage{supertabular} % Required for the supertabular environment which allows tables to span multiple pages so sections with tables correctly wrap across pages
 
@@ -115,7 +117,7 @@ SmallCapsFont=*-SC.ttf
 
 \titleformat{\section}{\color{headings}\scshape\LARGE\raggedright}{}{0em}{}[\color{black}\titlerule] % Define the \section format
 
-\titlespacing{\section}{0pt}{0pt}{8pt} % Spacing around section titles, the order is: left, before and after
+\titlespacing{\section}{0pt}{0pt}{5pt} % Spacing around section titles, the order is: left, before and after
 
 %----------------------------------------------------------------------------------------
 %	CUSTOM COMMANDS
